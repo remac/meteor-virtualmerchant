@@ -1,0 +1,9 @@
+{
+  "name": "virtualmerchant",
+  "description": "VirtualMerchant - a library for interfacing with various online payment services.",
+  "homepage": "----",
+  "author": "Arek Fryz <arek@remacenterprises.com",
+  "version": "0.0.1",
+  "git": "https://github.com/remac/meteor-virtualmerchant.git",
+  "packages": {}
+}
