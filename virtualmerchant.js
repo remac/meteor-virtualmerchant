@@ -7,8 +7,8 @@
 var https = Npm.require('https');
 var querystring = Npm.require('querystring');
 
-if (VirtualMerchant === undefined)
-  VirtualMerchant = {};
+//if (VirtualMerchant === undefined)
+ // VirtualMerchant = {};
 
 function setup_response_handler(req, callback) {
     if (typeof callback !== "function") {
