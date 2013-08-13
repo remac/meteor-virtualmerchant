@@ -7,6 +7,9 @@
 var https = Npm.require('https');
 var querystring = Npm.require('querystring');
 
+if (!VirtualMerchant)
+  VirtualMerchant = {};
+
 function setup_response_handler(req, callback) {
     if (typeof callback !== "function") {
         //console.log("missing callback");
@@ -54,7 +57,7 @@ function setup_response_handler(req, callback) {
     });
 }
 
-module.exports = function (options) {
+VirtualMerchant = function (options) {
     var defaults = options || {};
 
     function _request(method, path, data, callback) {
