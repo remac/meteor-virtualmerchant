@@ -57,7 +57,7 @@ function setup_response_handler(req, callback) {
     });
 }
 
-VirtualMerchant = function (options) {
+Meteor.VirtualMerchant = function (options) {
     var defaults = options || {};
 
     function _request(method, path, data, callback) {
